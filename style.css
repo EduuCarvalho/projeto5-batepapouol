@@ -14,11 +14,11 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    display :none;
+    align-items: center;    
+}
 
     
-}
+
 .login-pagina img{
     display: flex;
     justify-content: center;
@@ -48,7 +48,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-       
+    
+   
 }
 
 
@@ -146,4 +147,7 @@
 .enviar{
     width: 46px;
     padding: 27px 18px 27px 0px;
+}
+.esconder {
+    display:none;
 }
