@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-pagina {
+    background:#FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display :none;
+
+    
+}
+.login-pagina img{
+    display: flex;
+    justify-content: center;
+    margin-top:72px;
+   
+}
+.login-pagina input{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    width: 261px;
+    height: 54px;
+    margin-top: 94px;
+    text-align: center;
+}
+.login-pagina button {
+    width: 109px;
+    height: 45px;   
+    margin-top: 15px;
+    background: #E7E7E7;
+    border-radius: 9px;
+    border:inherit;
+}
+
+
+.pagina {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+       
+}
+
+
+.header{
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    
+}
+
+.logo {
+    padding: 16px 0px 11px 22px;
+}
+.vector {
+    padding: 25.03px 22.41px 24.03px 0px;
+}
+
+.caixa-mensagens {
+    background-color:#E5E5E5;
+    width: 100%;
+    height: 100vh;
+    margin: 80px 0px;
+    padding: 22px 0px;
+  
+    
+}
+.usuario, .destinatario {
+    font-weight: bold;
+}
+.caixa-mensagens li {
+    border-radius: 2px;
+    width: 100%;
+    padding: 11px 8px;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mensagem-entrou-saiu {
+    background-color: #DCDCDC;
+    line-height: 16.41px;
+    
+}
+.mensagem-chat {
+    background-color: #FFFFFF;
+    line-height: 16.41px;
+  
+}
+.mensagem-privada {
+    background-color: #FFDEDE;
+    line-height: 20px;
+    
+
+}
+.bottom {  
+     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;   
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+
+   
+}
+.enviar-mensagem {
+    
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 25px 0px 25px 17px;
+    color:#000000;
+    padding: 0px 17px;
+}
+.bottom input  {
+    font-style: italic;
+    color: #000000;
+    border:  none;
+    outline: 0;
+    width: 100%;
+ 
+}
+.enviar{
+    width: 46px;
+    padding: 27px 18px 27px 0px;
+}
