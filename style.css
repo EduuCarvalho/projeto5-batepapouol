@@ -64,7 +64,7 @@
     top: 0;
     left: 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
-    
+    z-index: 2;
 }
 
 .logo {
@@ -80,6 +80,7 @@
     height: 100vh;
     margin: 80px 0px;
     padding: 22px 0px;
+    word-wrap: break-word !important; 
   
     
 }
@@ -95,6 +96,8 @@
     margin: 4px 0px;
     font-weight: 400;
     font-size: 14px;
+    word-wrap: break-word !important; 
+    
 }
 
 .mensagem-entrou-saiu {
@@ -142,7 +145,7 @@
     border:  none;
     outline: 0;
     width: 100%;
- 
+    z-index: 2;
 }
 .enviar{
     width: 46px;
@@ -150,4 +153,7 @@
 }
 .esconder {
     display:none;
+}
+.hora {
+    color:#AAAAAA
 }

@@ -29,33 +29,11 @@
                 <img class="vector" src="./img/Vector.png">
 
             </div>
-            <ul class="caixa-mensagens">  
-                <li class="mensagem-entrou-saiu">
-                    <p class="mensagem">
-                        <span class="hora">(19:20:22)</span>
-                        <span class="usuario">João</span> entra na sala...
-                    </p>
-                </li>
-                <li class="mensagem-chat">
-                    <p class="mensagem">
-                        <span class="hora">(19:22:28)</span>
-                        <span class="usuario">João</span> para <span class="destinatario">todos</span>: Bom dia
-                                               
-                    </p>
-
-                </li>
-                <li class="mensagem-privada">
-                    <p class="mensagem">
-                        <span class="hora">(19:22:28)</span>
-                        <span class="usuario">João</span> reservadamente para <span class="destinatario">Maria</span>: Oi gatinha quer tc?
-                    </p>
-                </li>
-                
-
-            </ul>
+            <ul class="caixa-mensagens"></ul>
             <div class="bottom">
-                <input type"text" name="imput" placeholder="Escreva aqui..." class="enviar-mensagem">
-                <img class="enviar" src="./img/enviar.png">
+                <input type"text" name="imput" placeholder="Escreva aqui..." class="enviar-mensagem" onkeydown="enviarComEnter(event)" >
+                
+                <img class="enviar" src="./img/enviar.png" onclick="enviarMensagem()">
 
             </div>
 
